@@ -31,9 +31,11 @@ exists, click **Update launcher & restart**. It downloads and verifies the updat
 closes, replaces its executable, and reopens. Your installed game and saved folder
 choice are retained. Keep the launcher in a writable folder and close the game first.
 
-The current launcher is **0.3.1**, distributed as one executable. It downloads
-future launcher updates directly as executables. Existing 0.3.0 launchers can
-upgrade with their normal **Update launcher & restart** button.
+The current launcher is **0.4.0**, a native Windows desktop application with an
+integrated title bar, resizable release notes and native folder selection. Run
+the single executable directly; no .NET installation or extraction is needed.
+Existing 0.3.0 and 0.3.1 launchers can migrate with **Update launcher & restart**;
+their saved game folder and verified downloads are retained.
 
 Players with a launcher older than 0.3.0 need the current executable **once** to
 gain self-updating: close the launcher and replace it with the new download.
