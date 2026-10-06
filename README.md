@@ -7,7 +7,7 @@ A manual 3D tabletop for local and online play on Windows.
 **[Download ASOIAF Launcher](https://github.com/TheMadlman/asoiaf-tabletop-releases/releases/latest/download/ASOIAF-Launcher-windows-x86_64.zip)**
 
 1. Extract the ZIP and run **ASOIAF Launcher.exe**.
-2. Click **Install** to download the game (about 1.8 GB).
+2. Click **Install**, choose its folder, and download the game (about 1.8 GB).
 3. Click **Play**.
 
 The launcher checks for new releases and offers **Update**. It reuses unchanged
@@ -19,6 +19,14 @@ space for the first installation and its download cache.
 The initial release is the existing Windows 0.2.0 game build. Newer development
 changes arrive in subsequent releases. The launcher currently updates the game;
 launcher replacements are downloaded from this page. The executable is unsigned.
+
+Use **Choose folder** to select another installation location later. The
+launcher reuses verified downloads and keeps the previous game available until
+installation in the new location succeeds.
+
+To replace the launcher, close it, download the current ZIP, and replace
+**ASOIAF Launcher.exe**. Your installed game and saved folder choice are retained.
+The current launcher does not update its own executable automatically.
 
 [Release notes and previous versions](https://github.com/TheMadlman/asoiaf-tabletop-releases/releases)
 
