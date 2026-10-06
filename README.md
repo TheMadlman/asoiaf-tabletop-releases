@@ -24,9 +24,14 @@ Use **Choose folder** to select another installation location later. The
 launcher reuses verified downloads and keeps the previous game available until
 installation in the new location succeeds.
 
-To replace the launcher, close it, download the current ZIP, and replace
-**ASOIAF Launcher.exe**. Your installed game and saved folder choice are retained.
-The current launcher does not update its own executable automatically.
+Launcher **0.3.0** checks for its own updates when opened. When a newer version
+exists, click **Update launcher & restart**. It downloads and verifies the update,
+closes, replaces its executable, and reopens. Your installed game and saved folder
+choice are retained. Keep the launcher in a writable folder and close the game first.
+
+Players with a launcher older than 0.3.0 need the current ZIP **once** to gain
+self-updating: close the launcher, download/extract the ZIP, and replace
+**ASOIAF Launcher.exe**. Future launcher updates arrive inside the app.
 
 [Release notes and previous versions](https://github.com/TheMadlman/asoiaf-tabletop-releases/releases)
 
