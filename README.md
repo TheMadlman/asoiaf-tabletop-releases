@@ -22,7 +22,7 @@ click **Check for updates**, then **Update game**. With the previous download ca
 the update downloads about 155 MB. Players in an online match should use the
 same game version. The Windows executable is unsigned.
 
-Use **Browse…** to select another installation location later. The
+Use **Settings cog → Browse…** to select another installation location later. The
 launcher reuses verified downloads and keeps the previous game available until
 installation in the new location succeeds.
 
@@ -31,11 +31,17 @@ exists, click **Update launcher & restart**. It downloads and verifies the updat
 closes, replaces its executable, and reopens. Your installed game and saved folder
 choice are retained. Keep the launcher in a writable folder and close the game first.
 
-The current launcher is **0.4.0**, a native Windows desktop application with an
-integrated title bar, resizable release notes and native folder selection. Run
-the single executable directly; no .NET installation or extraction is needed.
-Existing 0.3.0 and 0.3.1 launchers can migrate with **Update launcher & restart**;
-their saved game folder and verified downloads are retained.
+The current launcher is **0.4.1**, a native Windows desktop application with an
+integrated title bar, a Settings cog and a distinct patch-notes panel. Installation
+folder controls live under **Settings → Browse…**. Run the single executable
+directly; no .NET installation or extraction is needed. Existing launchers from
+0.3.0 onward can upgrade with **Update launcher & restart**, retaining their saved
+game folder and verified downloads.
+
+Play waits for the game update check and stays disabled until an available game
+update has installed successfully. Failed or cancelled updates keep the previous
+game intact and Play disabled. An installed game remains playable offline when
+no newer release is known.
 
 Players with a launcher older than 0.3.0 need the current executable **once** to
 gain self-updating: close the launcher and replace it with the new download.
