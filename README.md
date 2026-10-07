@@ -16,11 +16,12 @@ are reused after cancellation or a retry. An installed game can be played offlin
 No GitHub account or subscription is required. Allow around 4 GB of free disk
 space for the first installation and its download cache.
 
-The current game release is **0.3.0** (October 6, 2026), including saved player
-profiles and shared battlefield preparation. Existing players open the launcher,
-click **Check for updates**, then **Update game**. With the previous download cache,
-the update downloads about 155 MB. Players in an online match should use the
-same game version. The Windows executable is unsigned.
+The current game release is **0.5.0** (October 7, 2026), including contextual
+tabletop communication signals and compact dark match chat. Hold **Space** over
+a piece or board location to signal; **Enter** opens chat and sends while typing.
+Existing players click **Check for updates**, then **Update game**. With a complete
+0.4.1 download cache, the update adds about 18.0 MiB. Players in an online match
+should use the same game version. The Windows executable is unsigned.
 
 Use **Settings cog → Browse…** to select another installation location later. The
 launcher reuses verified downloads and keeps the previous game available until
