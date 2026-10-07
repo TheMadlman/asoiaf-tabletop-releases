@@ -31,7 +31,7 @@ exists, click **Update launcher & restart**. It downloads and verifies the updat
 closes, replaces its executable, and reopens. Your installed game and saved folder
 choice are retained. Keep the launcher in a writable folder and close the game first.
 
-The current launcher is **0.4.1**, a native Windows desktop application with an
+The current launcher is **0.4.2**, a native Windows desktop application with an
 integrated title bar, a Settings cog and a distinct patch-notes panel. Installation
 folder controls live under **Settings → Browse…**. Run the single executable
 directly; no .NET installation or extraction is needed. Existing launchers from
@@ -42,6 +42,9 @@ Play waits for the game update check and stays disabled until an available game
 update has installed successfully. Failed or cancelled updates keep the previous
 game intact and Play disabled. An installed game remains playable offline when
 no newer release is known.
+
+Game and launcher checks fetch fresh metadata so cached feeds cannot hide a new
+release. [Download launcher 0.4.2 directly](https://github.com/TheMadlman/asoiaf-tabletop-releases/releases/download/launcher-v0.4.2/ASOIAF-Launcher.exe).
 
 Players with a launcher older than 0.3.0 need the current executable **once** to
 gain self-updating: close the launcher and replace it with the new download.
